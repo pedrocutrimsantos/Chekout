@@ -29,8 +29,6 @@ public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationCon
 
 	private ApplicationContext applicationContext;
 
-	
-	//Auto gerado
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		this.applicationContext = applicationContext;

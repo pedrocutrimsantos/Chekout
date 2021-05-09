@@ -26,7 +26,7 @@ public class ProdutosController {
 		}
 
 			System.out.println(">>> id: " + produto.getId());
-		return "cerveja/CadastroProduto";
+		return "Produtos/CadastroProduto";
 	}
 	
 }

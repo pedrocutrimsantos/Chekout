@@ -1,11 +1,12 @@
 package com.pedro.chekout.model;
 
 
-import org.hibernate.validator.constraints.NotEmpty;
+import org.hibernate.validator.constraints.NotBlank;
+
 
 public class Produto {
 	
-	@NotEmpty
+	@NotBlank
 	private String Id;
 	private String Nome;
 
